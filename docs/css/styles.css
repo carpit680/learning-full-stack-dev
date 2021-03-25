@@ -1,0 +1,33 @@
+/* ########################TAG SELECTORS########################## */
+body {
+    background-color: #eaf6f6
+}
+h1 {
+    color: #e4bad4;
+}
+h3 {
+    color: #e4bad4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr {
+    border-color: grey;
+    border-style: dotted none none none;
+    border-width: 5px;
+    width: 5%;
+}
+/* ########################CLASS SELECTORS########################## */
+.name {
+    color: #232320;
+    /* font-family: Bogart,Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif; */
+    font-size: 4.5em;
+    letter-spacing: -1.5px;
+    line-height: 110%;
+    margin: 0;
+    transition: all .2s ease-in-out;
+    font-weight: 500;
+}
+
+/* ########################ID SELECTORS########################## */
+#heading {
+    font-weight: 100;
+}
