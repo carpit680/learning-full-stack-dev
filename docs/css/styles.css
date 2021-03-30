@@ -1,5 +1,18 @@
 /* ########################TAG SELECTORS########################## */
-
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+p.footertext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em
+}
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
 /* ########################CLASS SELECTORS########################## */
 .container-fluid {
     padding:0  15%;
