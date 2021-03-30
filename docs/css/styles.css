@@ -1,13 +1,11 @@
 /* ########################TAG SELECTORS########################## */
-/* div {
-    background-color: #edffec;
-    margin-top: 0;
-}
-body {
-    margin: 0px
-} */
 
 /* ########################CLASS SELECTORS########################## */
-
+.container-fluid {
+    padding:0  15%;
+}
 /* ########################ID SELECTORS########################## */
- 
+ #title {
+    background-color: #fcd1d1; 
+    margin: 0;
+ }
