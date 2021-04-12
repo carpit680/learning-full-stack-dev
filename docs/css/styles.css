@@ -9,6 +9,9 @@ p.footertext {
     margin-right: auto;
     width: 15em
 }
+p{
+    line-height: 2;
+}
 body{
     /* background-color: #ece2e1; */
     background-color: #ece2e1;
