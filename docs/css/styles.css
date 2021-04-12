@@ -1,52 +1,75 @@
 /* ########################TAG SELECTORS########################## */
-img.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
-p.footertext {
-    margin-left: auto;
-    margin-right: auto;
-    width: 15em
-}
 P.blocktext {
     margin-left: auto;
     margin-right: auto;
     width: 50em
 }
-/* ########################CLASS SELECTORS########################## */
-.container-fluid {
-    padding:0  10%;
-    margin:0
+p.footertext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em
 }
-.title_div{
+body{
+    /* background-color: #ece2e1; */
     background-color: #fcd1d1;
 }
-.img {
-    padding:15% 0% 9% 0%;
-    background-color: #fcd1d1;
+hr{
+    height: 30px;
+    border: none;
 }
-.title_text{
-    padding:15% 0% 0% 0%;
-    transition: all .2s ease-in-out;
-    transition-property: all;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
-}
-.title_text_large{
-    font-size: 3rem; 
-    line-height: 1; 
-    font-family: 'Dancing Script', cursive;
-}
-.tiny_text {
+/* ########################CLASS SlELECTORS########################## */
+.about-text {
     color: #656270;
     font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 1.1em;
     line-height: 1.7;
-    transition: all .2s ease-in-out;
-    transition-delay: 0s;
-    transition-duration: 0.2s;
-    transition-property: all;
-    transition-timing-function: ease-in-out;
+}
+.container-fluid {
+    margin: 0 auto 0 auto;
+}
+.bottom-container{
+    background-color: #d3e0dc;
+    text-align: center;
+    margin: 0;
+}
+.middle-container{
+    /* background-color: #aee1e1; */
+    text-align: center;
+    width: 80%;
+}
+.image-div{
+    /* width: 50%; */
+}
+.my-img {
+    padding: 2rem ;
+    /* width: auto; */
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.name-text{
+    font-size: 350%; 
+    line-height: 1; 
+    font-family: 'Dancing Script', cursive;
+}
+.navbar{
+    background-color: #d3e0dc;
+}
+.navbar-div{
+    width: 80%;
+    align-content: center;
+}
+.row {
+    background-color: #fcd1d1;
+}
+.title-div{
+    /* align-content: center; */
+    width:80%
+}
+.title-text{
+    padding: 2rem 0 0 0;
+    margin-top: auto;
+  margin-bottom: auto;
 }
 /* ########################ID SELECTORS########################## */
