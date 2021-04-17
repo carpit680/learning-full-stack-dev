@@ -1,17 +1,4 @@
 /* ########################TAG SELECTORS########################## */
-P.blocktext {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50em
-}
-p.footertext {
-    margin-left: auto;
-    margin-right: auto;
-    width: 15em
-}
-p{
-    line-height: 2;
-}
 body{
     background-color: #ece2e1;
 }
@@ -22,6 +9,19 @@ hr{
 img.skill{
     width: 20%;
     float: left;
+}
+p{
+    line-height: 2;
+}
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+p.footertext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em
 }
 /* ########################CLASS SlELECTORS########################## */
 .about-text {
