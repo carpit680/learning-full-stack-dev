@@ -2,6 +2,7 @@ var user_clicked_pattern = [];
 var game_pattern = [];
 var button_colors = ["red", "blue", "green", "yellow"];
 var level = 0;
+var high_score = 0;
 
 $(document).ready(function (){
     $(document).keydown(function (){
@@ -59,9 +60,13 @@ function checkAnswer(current_level){
         $("#level-title").text("Game Over, Press Any Key to Restart");
         startOver();
     }
+    if(current_level > high_score){
+        high_score = current_level+1;
+    }
 }
 
 function startOver(){
     level =0;
-    game_pattern = []
+    $("#high-score").text("High score: " + high_score);
+    game_pattern = [];
 }
